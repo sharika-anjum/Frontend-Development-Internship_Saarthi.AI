@@ -43,7 +43,9 @@ c)Table should be scrollable with fixed header row.
   <h4> The popup form will not get submitted unless all the fields has been provided with user values else it will throw messages to the user for filling up the details</h4>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%205.png"> 
 
-
+ <br>
+  
+  <h4> On proper submission of the form, a table will popup showing all the employee records entered so far </h4>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%206.png"> 
 
 
