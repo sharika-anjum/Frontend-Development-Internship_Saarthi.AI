@@ -53,3 +53,8 @@ c)Table should be scrollable with fixed header row.
   <h4>The popup table contains a cross button at each table row to delete any entry dynamically and the deleted  entry is getting reflected immediately </h4>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%207.png"> 
 
+
+
+<h2> - The entire website is made responsive.
+  - Backend is yet to be made untill then deployment is kept at a halt.
+  - However this can be ran on local host for seeing the demo.</h2>
