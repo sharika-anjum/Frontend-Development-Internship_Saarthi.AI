@@ -20,6 +20,9 @@ c)Table should be scrollable with fixed header row.
 6. Styling should be done in CSS. 
 
 <h3>Technology used: HTML, CSS, Javascript, Jquery<h3> (Separate files have been made for separate technologies, which are visible on this repository) <br>
+  <br>
+  
+  <h4> Landing page of the website </h4>
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/landing%20page.png"> 
 
