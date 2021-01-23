@@ -38,7 +38,9 @@ c)Table should be scrollable with fixed header row.
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%203.png"> 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%204.png"> 
 
-
+ <br>
+  
+  <h4> The popup form will not get submitted unless all the fields has been provided with user values else it will throw messages to the user for filling up the details</h4>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%205.png"> 
 
 
