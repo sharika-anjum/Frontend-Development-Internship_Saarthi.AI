@@ -18,5 +18,6 @@ c)Table should be scrollable with fixed header row.
 4. A cross. button gets generated at each table row to delete any entry dynamically, deleted  entry should get reflected immediately. 
 5. Complete application should be responsive. 
 6. Styling should be done in CSS. 
-7. Technology to Use :- HTML/CSS/Javascript/jQuery OR Angular/React. 
+
+<h3>Technology used: HTML, CSS, Javascript, Jquery<h3>
 
