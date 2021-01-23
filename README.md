@@ -26,3 +26,21 @@ c)Table should be scrollable with fixed header row.
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/landing%20page.png"> 
 
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%202.png"> 
+
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%203.png"> 
+
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%204.png"> 
+
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%205.png"> 
+
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%206.png"> 
+
+
+<img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%207.png"> 
+
