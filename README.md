@@ -19,5 +19,6 @@ c)Table should be scrollable with fixed header row.
 5. Complete application should be responsive. 
 6. Styling should be done in CSS. 
 
-<h3>Technology used: HTML, CSS, Javascript, Jquery<h3>
+<h3>Technology used: HTML, CSS, Javascript, Jquery<h3> (Separate files have been made for separate technologies, which are visible on this repository) <br>
+
 
