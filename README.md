@@ -25,14 +25,17 @@ c)Table should be scrollable with fixed header row.
   <h4> Landing page of the website </h4>
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/landing%20page.png"> 
+ <br>
+  
+  <h4> On clicking to the 'New Employee' button - a popup will open to enter the new employee details</h4>
 
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%202.png"> 
 
-
+ <br>
+  
+  <h4> The poopup form contains 5 fields to enter the data, out of which 3 are text fields, 1 is a dropdown and another one is for calender input. </h4>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%203.png"> 
-
-
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%204.png"> 
 
 
