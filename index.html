@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saarthi.AI</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!--For including an external font-style==================-->
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap" rel="stylesheet">
+    <!--End of external font-style link==================-->
+
+    <!-- Bootstrap CDN, Jquery links ----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--End of all external links==================-->
+
+    <script src="main.js"></script>
+
+
+
+</head>
+<body>
+
+<!--Header===-->
+<header class="header">
+    <div class="hero">
+        <b class="title">SAARTHI.AI</b>
+
+
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn hero-button pulsate fas fa-user-plus btn-lg" id= "myBtn" data-toggle="modal" data-target="#myModal"><b>
+            New Employee  </b>
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" id="mod_cls" data-dismiss="modal"><b>&times;</b></button>
+                        <h4 class="modal-title text-center"><b>Employee Details</b></h4>
+                    </div>
+                    <!--End of Modal Header==================-->
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="error"></div>
+                        <!--Form==================-->
+                        <form role="form" action="" id="myform" method="GET">
+                            <div class="form-group">
+                                <label>Name of the Employee</label>
+                                <input type="text" class="form-control" id="name" placeholder="Full name" required="true">
+                            </div><div class="form-group">
+                            <label>Employee ID</label>
+                            <input type="text" class="form-control" id="id" placeholder="Employee ID" required="true">
+                        </div>
+                            <div class="form-group">
+                                <label>Department</label><br>
+                                <select class="selectpicker form-control" required="true">
+
+                                    <option value="1">Accounting & Finance</option>
+                                    <option value="2">Human Resource</option>
+                                    <option value="3">IT</option>
+                                    <option value="4">Marketing</option>
+                                    <option value="5">Research & Development</option>
+
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="true">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="datepicker">Date of Joining</label>
+                                <input class="form-control" id="datepicker" type="date" required="true">
+
+                            </div>
+                            <button type="submit" class="btn btn-success" id="Btnn" data-dismiss="modal" data-toggle="modal" data-target="#tablepopup" onclick="myFunction()">Submit</button>
+                            <button type="button" class="btn btn-warning" onclick="myFunction()">Clear</button>
+                        </form>
+                        <!--End of Form==================-->
+                    </div>
+                    <!--End of Modal Body==================-->
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- The Modal -->
+        <div class="modal fade" id="tablepopup">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" id="mod_cls" data-dismiss="modal"><b>&times;</b></button>
+                        <h4 class="modal-title text-center"><b>Employee Records</b></h4>
+                    </div>
+                    <!--End of Modal Header==================-->
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!--Table==================-->
+                        <table class="table table-hover table-responsive" id="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Employee Name</th>
+                                <th scope="col">Employee ID</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Email ID</th>
+                                <th scope="col">Joining Date</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Sharika</td>
+                                <td>1234sam</td>
+                                <td>IT</td>
+                                <td>sharikaanjumm@gmail.com</td>
+                                <td>01-02-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            <tr>
+                                <td>Saurav</td>
+                                <td>abc123</td>
+                                <td>Research & Development</td>
+                                <td>sauravc@gmail.com</td>
+                                <td>30-01-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            <tr>
+                                <td>Dhrubo</td>
+                                <td>12345jk</td>
+                                <td>Accounting & Finance</td>
+                                <td>dhrubom@gmail.com</td>
+                                <td>23-01-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            <tr>
+                                <td>Ashutosh</td>
+                                <td>yuo789</td>
+                                <td>Human Resource</td>
+                                <td>jbcj@gmail.com</td>
+                                <td>12-01-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            <tr>
+                                <td>Aishani</td>
+                                <td>hjkn67</td>
+                                <td>Marketing</td>
+                                <td>sajbjsnk@gmail.com</td>
+                                <td>01-01-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            <tr>
+                                <td>Prithivi</td>
+                                <td>6868gj</td>
+                                <td>IT</td>
+                                <td>gkjnklmjl@gmail.com</td>
+                                <td>02-02-2021</td>
+                                <td><b class="fa fa-times"></b></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--End of Table==================-->
+
+                    </div>
+                    <!--End of Modal Body==================-->
+                </div>
+            </div>
+
+        </div>
+</header>
+<!--End of Header==================-->
+<!---Social Icons-->
+<section id="social-icons">
+    <a href="#"><i class="fab fa-facebook facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram instagram"></i></a>
+    <a href="#"><i class="fab fa-google-plus plus"></i></a>
+</section>
+
+<!---footer========-->
+<footer class="footer">
+
+    <div class="section-center">
+        <p class="text">
+            &copy; <span>Sharika Anjum Mondal</span>
+        </p>
+    </div>
+
+</footer>
+<!--End of Footer==================-->
+
+
+<!--JS==================-->
+<script>
+function myFunction() {
+  document.getElementById("myform").reset();
+}
+
+var index, table = document.getElementById('table');
+            for(var i = 1; i < table.rows.length; i++)
+            {
+                table.rows[i].cells[5].onclick = function()
+                {
+                    var c = confirm("Do you want to delete this row?");
+                    if(c === true)
+                    {
+                        index = this.parentElement.rowIndex;
+                        table.deleteRow(index);
+                        console.log(index);
+                    }
+
+
+                };
+
+            }
+</script>
+<!--End of JS==================-->
+
+
+</body>
+</html>
