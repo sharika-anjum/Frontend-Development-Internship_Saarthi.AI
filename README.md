@@ -57,7 +57,7 @@ Figure 2
 
  <br>
   
-  <h5> The poopup form contains 5 fields to enter the data, out of which 3 are text fields, 1 is a dropdown and another one is for calender input. </h5>
+  <h5> The popup form contains 5 fields to enter the data, out of which 3 are text fields, 1 is a dropdown and another one is for calender input. </h5>
   
   Figure 3
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%203.png"> 
