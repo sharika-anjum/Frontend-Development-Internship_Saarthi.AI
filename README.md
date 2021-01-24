@@ -38,7 +38,7 @@ c)Table should be scrollable with fixed header row.
   Figure c
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/all%20in%20one.jpg"> 
  <br>
-  <h3> The website workflow </h3>
+  <h3> The website workflow (Video)</h3>
   
   ***Disclaimer: The functioning of the dropdown(selectpicker) and the calendar in the form and also the popup while deletion of the record in the table wasn't captured by the online screen recorder (don't know why, a mystery to me as well). These are however shown in figure 3,4 and 7 respectively***
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/website%20working.gif">
