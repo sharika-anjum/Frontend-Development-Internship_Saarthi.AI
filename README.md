@@ -21,6 +21,8 @@ c)Table should be scrollable with fixed header row.
 
 <h3>Technology used: HTML, CSS, Javascript, Jquery<h3> (Separate files have been made for separate technologies, which are visible on this repository) <br>
   <br>
+  <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/all%20in%20one.jpg"> 
+ <br>
   
   <h4> Landing page of the website </h4>
 
