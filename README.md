@@ -24,7 +24,9 @@ c)Table should be scrollable with fixed header row.
   <h3> The entire design <h3>
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/all%20in%20one.jpg"> 
  <br>
-  
+  <h3> The website workflow <h3>
+  <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/website%20working.gif">
+  <br>
   <h4>Pages in details:</h4>
   <h5> Landing page of the website </h5>
 
