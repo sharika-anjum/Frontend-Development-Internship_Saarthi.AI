@@ -19,40 +19,42 @@ c)Table should be scrollable with fixed header row.
 5. Complete application should be responsive. 
 6. Styling should be done in CSS. 
 
-<h3>Technology used: HTML, CSS, Javascript, Jquery<h3> (Separate files have been made for separate technologies, which are visible on this repository) <br>
+<h4>Technology used: HTML, CSS, Javascript, Jquery</h4> (Separate files have been made for separate technologies, which are visible on this repository) <br>
   <br>
+  <h3> The entire design <h3>
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/all%20in%20one.jpg"> 
  <br>
   
-  <h4> Landing page of the website </h4>
+  <h4>Pages in details:</h4>
+  <h5> Landing page of the website </h5>
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/landing%20page.png"> 
  <br>
   
-  <h4> On clicking to the 'New Employee' button - a popup will open to enter the new employee details</h4>
+  <h5> On clicking to the 'New Employee' button - a popup will open to enter the new employee details</h5>
 
 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%202.png"> 
 
  <br>
   
-  <h4> The poopup form contains 5 fields to enter the data, out of which 3 are text fields, 1 is a dropdown and another one is for calender input. </h4>
+  <h5> The poopup form contains 5 fields to enter the data, out of which 3 are text fields, 1 is a dropdown and another one is for calender input. </h5>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%203.png"> 
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%204.png"> 
 
  <br>
   
-  <h4> The popup form will not get submitted unless all the fields has been provided with user values else it will throw messages to the user for filling up the details</h4>
+  <h5> The popup form will not get submitted unless all the fields has been provided with user values else it will throw messages to the user for filling up the details</h5>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%205.png"> 
 
  <br>
   
-  <h4> On proper submission of the form, a table will popup showing all the employee records entered so far </h4>
+  <h5> On proper submission of the form, a table will popup showing all the employee records entered so far </h5>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%206.png"> 
 
  <br>
   
-  <h4>The popup table contains a cross button at each table row to delete any entry dynamically and the deleted  entry is getting reflected immediately </h4>
+  <h5>The popup table contains a cross button at each table row to delete any entry dynamically and the deleted  entry is getting reflected immediately </h5>
 <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/Page%207.png"> 
 
 
