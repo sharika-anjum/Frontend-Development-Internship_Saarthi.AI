@@ -59,6 +59,9 @@ c)Table should be scrollable with fixed header row.
 
 
 
-<h2>* The entire website is made responsive.
-  * Backend is yet to be made untill then deployment is kept at a halt.
-  * However this can be ran on local host for seeing the demo.</h2>
+***The entire website is made responsive.***
+  ***Backend is yet to be made untill then deployment is kept at a halt.***
+  ***However this can be ran on local host for seeing the demo.***
+  
+ <h3>Application Logic:<h3> 
+(will be uploaded soon)
