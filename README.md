@@ -33,7 +33,7 @@ c)Table should be scrollable with fixed header row.
   Figure b
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Application%20logic.png">
   <br>
-  <h3> The entire interface <h3>
+  <h3> The entire interface </h3>
   
   Figure c
   <img src="https://github.com/sharika-anjum/Frontend-Development-Internship_Saarthi.AI/blob/main/Results/all%20in%20one.jpg"> 
@@ -92,5 +92,5 @@ Figure 4
   ***Backend is yet to be made untill then deployment is kept at a halt.***
   ***However this can be ran on local host for seeing the demo.***
   
- 
- #Thank You. Hope you like it.
+ <br><br>
+ # Thank You. Hope you like it.
